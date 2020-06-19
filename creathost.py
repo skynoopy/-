@@ -81,9 +81,9 @@ def requesturl(hostname, cpu, mem, disk):
     print(requrl)
 
     # 公钥
-    publickey = {'PublicKey': 'd+OjKD0rgaqxZWwaa9Nev4pQeAlhsiht4B9EgYDBGn5IbmvN'}
+    publickey = {'PublicKey': '秘药串'}
     #私钥
-    private = 'd186ba62dad44a55ee8e4da1a873c51aee64737e'
+    private = ‘舔自己的'
     http_url = 'https://api.ucloud.cn/?'
     base_url = _verfy_ac(requrl, publickey, private)
 
@@ -99,7 +99,7 @@ def requesturl(hostname, cpu, mem, disk):
 #dingtalk notic
 def dingtalk():
     headers = {'content-type': 'application/json'}
-    web_url = 'https://oapi.dingtalk.com/robot/send?access_token=ace2f9d401307aa116fe162ff7946e19c893761eab4115d597792fffd0e1a1e2'
+    web_url = 'https://oapi.dingtalk.com/robot/send?access_token=ace2f9d401307aa116fe16c893761eab4115d597792fffd0e1a1e2'
     parse = {"msgtype": "text", "text": {"content": "主机创建成功了 %s " %('孟海亮') }}
     r = requests.post(web_url,  data=json.dumps(parse), headers=headers)
     print(r.text)
