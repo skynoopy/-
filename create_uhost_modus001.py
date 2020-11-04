@@ -83,9 +83,9 @@ requesturl = {
 }
 
 # 公钥
-publickey = {'PublicKey': 'd+OjKD0rgaqxZWwaa9Nev4pQeAlhsiht4B9EgYDBGn5IbmvN'}
+publickey = {'PublicKey': 'xxxxxxxxaqxZWwaa9Nev4pQeAlhsiht4B9EgYxxxx'}
 # #私钥
-private = 'd186ba62dad44a55ee8e4da1a873c51aee64737e'
+private = 'xxxxxxx44a55ee8e4da1a873c51aee6xxx'
 http_url = 'https://api.ucloud.cn/?'
 base_url = _verfy_ac(requesturl, publickey, private)
 
